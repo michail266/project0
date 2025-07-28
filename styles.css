@@ -1,6 +1,12 @@
-a > button {
-  font-size: 14px;
-  color: blue;
-  text-decoration: white; }
+.top-right-buttons {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 5px; }
+  .top-right-buttons button {
+    font-size: 14px;
+    color: blue;
+    text-decoration: white;
+    justify-content: flex-end; }
 
 /*# sourceMappingURL=styles.css.map */
