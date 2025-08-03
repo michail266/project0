@@ -9,4 +9,43 @@
     text-decoration: white;
     justify-content: flex-end; }
 
+.search_bar {
+  display: flex;
+  height: 700px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .search_bar .logo {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+    user-select: none; }
+  .search_bar form {
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    justify-content: space-around; }
+  .search_bar .searchBar {
+    width: min(90vw, 60em);
+    height: 4vh;
+    border: 1px solid #999191;
+    border-radius: 20px;
+    padding: 5px; }
+  .search_bar .searchBar:hover {
+    border-color: #f0f2f3;
+    box-shadow: 0 2px 10px rgba(32, 33, 36, 0.28); }
+  .search_bar .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px; }
+  .search_bar .buttons:hover {
+    border-color: white;
+    color: white; }
+  .search_bar input[type="submit"] {
+    color: #464d54;
+    border-radius: 5px;
+    border: 0px #f8f9fa;
+    font-size: 20px;
+    padding: 10px; }
+
 /*# sourceMappingURL=styles.css.map */
