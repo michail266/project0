@@ -64,8 +64,7 @@ h2 {
 #AdvLogo {
   width: 180px;
   height: 90px;
-  user-select: none;
-  flex-shrink: 0; }
+  user-select: none; }
 
 .AdvSearch_bar {
   width: 100vw; }
