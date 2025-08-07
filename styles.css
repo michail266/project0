@@ -1,7 +1,6 @@
 .top-right-buttons {
   display: flex;
   justify-content: flex-end;
-  flex-wrap: wrap;
   gap: 5px; }
   .top-right-buttons button {
     color: #464d54;
@@ -32,9 +31,9 @@
     gap: 20px; }
   .search_bar .searchBar {
     width: min(90vw, 60em);
-    height: 4vh;
+    height: 46px;
     border: 1px solid #999191;
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 5px;
     background: white url(images/MagnifyingGlassIcon.png) left no-repeat;
     background-size: 20px;
@@ -62,15 +61,42 @@ h2 {
   font-family: Product sans, Google Sans, Roboto, serif;
   margin-left: 10px; }
 
+#AdvLogo {
+  width: 180px;
+  height: 90px;
+  user-select: none;
+  flex-shrink: 0; }
+
 .AdvSearch_bar {
-  display: flex; }
+  width: 100vw; }
+  .AdvSearch_bar form {
+    display: flex;
+    height: 650px;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #696969;
+    justify-content: space-evenly; }
+  .AdvSearch_bar .input-group {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px; }
+    .AdvSearch_bar .input-group label {
+      width: 300px;
+      flex-wrap: wrap; }
+    .AdvSearch_bar .input-group input {
+      flex-shrink: 0;
+      height: 20px;
+      width: 50vh; }
+    .AdvSearch_bar .input-group .description {
+      margin-left: 200px; }
   .AdvSearch_bar input[type="submit"] {
     color: #ffffff;
     border-radius: 5px;
     border: 1px solid #4d92f9;
     background-color: #4c91f7;
     font-size: 20px;
-    padding: 10px 20px; }
+    padding: 10px 20px;
+    align-self: center; }
   .AdvSearch_bar input[type="submit"]:hover {
     border: 1px solid #2e5eb4; }
 

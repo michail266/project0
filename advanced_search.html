@@ -12,22 +12,41 @@
             <button>Google Search</button>
         </a>
         </div>
+
+        <img src="images/Google_2015_logo.svg.png" alt="Google Logo" id="AdvLogo" draggable="false">
         <h2>Advanced search</h2>
 
 
         <div class="AdvSearch_bar">
             
         <form action="https://google.com/search" method="get">
-            <label>find these words:</label>
-            <input type="text" name="as_q"><br>
-            <label>his exact word or phrase:</label>
-            <input type="text" name="as_epq"><br>
-            <label>any of these words:</label>
-            <input type="text" name="oq"><br>
-            <label>none of these words:</label>
-            <input type="text" name="as_eq"><br><br>
+
+            <div class="input-group">                
+              <label>Find these words:</label>
+              <input type="text" name="as_q">
+              <label class="description">Type the important words: tri-colour rat terrier </label>
+            </div>
+
+            <div class="input-group">       
+                <label>This exact word or phrase:</label>
+                <input type="text" name="as_epq">
+                <label class="description"> Put exact words in quotes: "rat terrier"</label>
+            </div>
+
+            <div class="input-group">
+                <label>Any of these words:</label>
+                <input type="text" name="oq">
+                <label class="description">Type OR between all the words you want: miniature OR standard </label>
+    
+            </div>
+            <div class="input-group">
+                <label>None of these words:</label>
+                <input type="text" name="as_eq">
+                <label class="description">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell" </label>
+            </div>
 
             <input type="submit" value="Google Advanced Search">
+
         </form>
         </div>
     
