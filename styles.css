@@ -1,7 +1,11 @@
+body {
+  margin: 0; }
+
 .top-right-buttons {
   display: flex;
   justify-content: flex-end;
-  gap: 5px; }
+  margin: 7px;
+  gap: 7px; }
   .top-right-buttons button {
     color: #464d54;
     border-radius: 5px;
@@ -64,16 +68,19 @@ h2 {
 #AdvLogo {
   width: 180px;
   height: 90px;
-  user-select: none; }
+  user-select: none;
+  margin: 7px; }
 
 .AdvSearch_bar {
-  width: 100vw; }
+  width: 100vw;
+  border: 1px solid #696969;
+  border-left: none;
+  border-right: none; }
   .AdvSearch_bar form {
     display: flex;
     height: 650px;
     flex-direction: column;
     gap: 10px;
-    border: 1px solid #696969;
     justify-content: space-evenly; }
   .AdvSearch_bar .input-group {
     display: flex;
