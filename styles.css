@@ -34,8 +34,8 @@ body {
     align-items: center;
     gap: 20px; }
   .search_bar .searchBar {
-    width: min(80vw, 30em);
-    height: 46px;
+    width: min(80vw, 40em);
+    height: 40px;
     border: 1px solid #dadce0;
     border-radius: 25px;
     padding: 5px;
