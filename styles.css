@@ -23,8 +23,9 @@ body {
   justify-content: center;
   align-items: center; }
   .search_bar .logo {
-    width: 300px;
-    height: 100px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
     margin-bottom: 20px;
     user-select: none; }
   .search_bar form {
