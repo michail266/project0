@@ -34,7 +34,7 @@ body {
     align-items: center;
     gap: 20px; }
   .search_bar .searchBar {
-    width: min(90vw, 60em);
+    width: 90vw;
     height: 46px;
     border: 1px solid #dadce0;
     border-radius: 25px;
@@ -42,7 +42,6 @@ body {
     background: white url(images/MagnifyingGlassIcon.png) left no-repeat;
     background-size: 20px;
     background-position: 10px center;
-    padding-left: 40px;
     box-shadow: 0 1px 2px rgba(32, 33, 36, 0.28); }
   .search_bar .searchBar:hover {
     border-color: #f0f2f3;
