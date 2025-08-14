@@ -79,18 +79,23 @@ h2 {
   border: 1px solid #696969;
   border-left: none;
   border-right: none; }
-  @media (max-width: 600px) {
+  @media (orientation: portrait) {
     .AdvSearch_bar .input-group {
       display: flex;
       padding: 5px;
       flex-direction: column;
       align-items: flex-start; }
-      .AdvSearch_bar .input-group input {
-        height: 40px;
+      .AdvSearch_bar .input-group input[type="text"] {
+        height: 20px;
         width: 90%;
-        max-width: 400px; }
+        max-width: 500px; }
       .AdvSearch_bar .input-group .description {
-        display: none; } }
+        display: none; }
+      .AdvSearch_bar .input-group input[type="submit"] {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        border: 2px solid #09ff00; } }
   .AdvSearch_bar form {
     display: flex;
     height: 650px;
